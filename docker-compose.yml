@@ -9,6 +9,8 @@ services:
       - $PWD:/app
     depends_on:
       - redis
+    ports:
+      - 3000:3000
   sub:
     container_name: sub
     image: 'node:16-alpine'
