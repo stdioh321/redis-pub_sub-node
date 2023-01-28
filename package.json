@@ -1,0 +1,28 @@
+{
+  "name": "redis-pub_sub-node",
+  "version": "1.0.0",
+  "description": "Redis Pub/Sub with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start:pub": "node @/pub/index.js",
+    "start:sub": "node @/sub/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stdioh321/redis-pub_sub-node.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stdioh321/redis-pub_sub-node/issues"
+  },
+  "homepage": "https://github.com/stdioh321/redis-pub_sub-node#readme",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.29",
+    "ioredis": "^5.3.0",
+    "milliparsec": "^2.2.2"
+  }
+}
